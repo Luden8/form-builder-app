@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
+import { ContainerComponent, LayoutComponent } from '@form-builder-app/ui-kit';
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [ContainerComponent, LayoutComponent, RouterModule],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  template:`
+    <lib-layout>
+      <lib-container>
+        <router-outlet></router-outlet>
+      </lib-container>
+    </lib-layout>
+  `
 })
 export class AppComponent {
-  title = 'client';
+  title = 'Step form builder app';
 }

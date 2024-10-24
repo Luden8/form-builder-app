@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/answer-api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/answers-microservice-api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}

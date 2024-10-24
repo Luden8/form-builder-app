@@ -1,0 +1,7 @@
+{
+  "projectType": "library",
+  "root": "libs/tailwindcss-preset",
+  "sourceRoot": "libs/tailwindcss-preset",
+  "targets": {},
+  "tags": []
+}

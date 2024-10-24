@@ -14,7 +14,24 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@form-builder-app/answers-rest-api": [
+        "libs/answers-rest-api/src/index.ts"
+      ],
+      "@form-builder-app/db-configuration": [
+        "libs/db-configuration/src/index.ts"
+      ],
+      "@form-builder-app/finished": ["libs/finished/src/index.ts"],
+      "@form-builder-app/home": ["libs/home/src/index.ts"],
+      "@form-builder-app/session-manager": [
+        "libs/session-manager/src/index.ts"
+      ],
+      "@form-builder-app/steps": ["libs/steps/src/index.ts"],
+      "@form-builder-app/steps-feature": ["libs/steps-feature/src/index.ts"],
+      "@form-builder-app/steps-rest-api": ["libs/steps-rest-api/src/index.ts"],
+      "@form-builder-app/ui-kit": ["libs/ui-kit/src/index.ts"],
+      "@form-builder-app/users-rest-api": ["libs/users-rest-api/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
